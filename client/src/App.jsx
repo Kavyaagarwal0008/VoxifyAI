@@ -12,7 +12,7 @@ import Billing from './pages/Billing'
 import { use } from 'react'
 import { Toaster } from 'react-hot-toast'
 
-export const ServerUrl= "http://localhost:8000"
+export const ServerUrl= "https://voxifyaiserver.onrender.com"
 export const CLIENT_URL ="http://localhost:5173"
 function App(){
 
