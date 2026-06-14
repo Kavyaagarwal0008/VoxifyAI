@@ -118,7 +118,7 @@
         try {
 
             const res = await fetch(
-                `http://localhost:8000/api/assistant/config/${userId}`
+                `https://voxifyaiserver.onrender.com/api/assistant/config/${userId}`
             )
 
             if (!res.ok) {
@@ -237,7 +237,7 @@
                     status.innerText = "Thinking ...";
 
 
-                    const res = await fetch("http://localhost:8000/api/assistant/ask", {
+                    const res = await fetch("https://voxifyaiserver.onrender.com/api/assistant/ask", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json",
