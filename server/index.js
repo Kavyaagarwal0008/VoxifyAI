@@ -11,7 +11,7 @@ import assistantRouter from "./Routes/assistant.route.js"
 import billingRouter from "./Routes/billing.route.js"
 const app = express()
 const privateCors = cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://voxifyai.onrender.com"],
 
     credentials: true
 });
