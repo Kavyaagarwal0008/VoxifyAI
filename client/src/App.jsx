@@ -13,7 +13,7 @@ import { use } from 'react'
 import { Toaster } from 'react-hot-toast'
 
 export const ServerUrl= "https://voxifyaiserver.onrender.com"
-export const CLIENT_URL ="http://localhost:5173"
+export const CLIENT_URL ="https://voxifyai.onrender.com"
 function App(){
 
 
