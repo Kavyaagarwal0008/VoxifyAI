@@ -17,7 +17,7 @@
 
     const link = document.createElement("link")
     link.rel = "stylesheet"
-    link.href = "http://localhost:5173/assistant.css"
+    link.href = "https://voxifyai.onrender.com/assistant.css"
     document.head.appendChild(link)
 
     //create pop up
@@ -60,7 +60,7 @@
 
             <div class="voxify-bottom">
                 <button class="voxify-mic"> 
-                    <img src="http://localhost:5173/mic.svg" alt="mic" class="voxify-mic-icon"/>
+                    <img src="https://voxifyai.onrender.com/mic.svg" alt="mic" class="voxify-mic-icon"/>
 
                 </button>
             </div>
@@ -77,7 +77,7 @@
     button.className = `voxify-btn theme-${theme}`
 
     button.innerHTML = `
-        <img src="http://localhost:5173/logo.png" alt="logo" />
+        <img src="https://voxifyai.onrender.com/logo.png" alt="logo" />
     `;
 
     document.body.appendChild(button)
